@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Barbara Santambrogio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="prova.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Barbara Santambrogio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header id="header">
+    <div class="header-overlay"></div>
+    <div class="header-text">
+        <h1>Bienvenue à Mon Portfolio</h1>
+        <p>Bonjour, je suis Barbara Santambrogio</p>
+        <button class="CV"><a href="Pdf/Barbara.pdf" download class="btn2">Télécharger mon
+        CV</a></button>
+    </div>
+   
+</header>
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/image.jpg" alt="about image" class="img-fluid img-thumbnail about-img">
+            </div>
+            <div class="col-md-6">
+                <h2 class="sub-title">À propos de moi</h2>
+                <p class="aboutContent">En 2019, depuis mon arrivée en France, j'ai travaillé plusieurs années dans le secteur de la
+                    restauration. Cette expérience m'a permis d'apprendre à interagir avec des clients de profils différents et à
+                    comprendre leurs besoins. 
+                    Ressentant le désir de donner un nouvel élan à ma vie professionnelle, j'ai décidé de me lancer
+                    dans une nouvelle carrière dans le développement web. 
+                    En ce moment, je suis en formation à la Web@cadémie d’Epitech à Paris,
+                    où j'apprends les différents langages de programmation web et je perfectionne mes compétences à travers des
+                    projets pratiques, que ce soit en solo ou en équipe. 
+                    Cette expérience m'a permis de développer un esprit collaboratif et une capacité d'adaptation à différentes méthodes de travail. 
+                    Déterminée à progresser en tant que développeuse web,
+                    je suis prête à m'investir à 100% dans mon alternance afin d'apprendre rapidement et de pouvoir apporter une réelle
+                    contribution à mon équipe future.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <div class="container">
+        <h2 class="titleProjet">Projets</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/battleship.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Battleship</h5>
+                        <p class="card-text">Amélioration d'un jeu de bataille navale existant en groupe, avec ajout de fonctionnalités, en JavaScript.</p>
+                        <a href="https://github.com/BarbaraSantambrogio/Battleship." class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/puissance4.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Puissance 4</h5>
+                        <p class="card-text">Plugin JavaScript: Puissance 4 - Jeu interactif avec grille dynamique et POO.</p>
+                        <a href="https://github.com/BarbaraSantambrogio/Puissance4" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/myQuiz.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">My Quiz</h5>
+                        <p class="card-text">Site de quiz développé en PHP avec Symfony (MVC) et utilisation de Doctrine ORM.
+                            .</p>
+                        <a href="https://github.com/BarbaraSantambrogio/MyQuiz" class="btn btn-primary">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="row">
+            <div class="col-md-6 contact-left">
+                <a href="mailto:santambrogio@example.com">Email: santambrogio@example.com</a>
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/barbara-santambrogio/" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        width="35px"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                    </svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Barbara Santambrogio. Tous droits réservés.</p>
+</footer>
+
+<!-- JavaScript e Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
